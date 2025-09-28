@@ -6,8 +6,8 @@ from itertools import product
 from datetime import datetime
 from urllib.parse import urlencode
 
-API_KEY = 'AIzaSyBXgxaSjwawswaVyCJmCUMPIAHSEASYUeQ'
-CSE_ID = '24cc36a2d053b42e5'
+API_KEY = '
+CSE_ID = '
 
 DATE_THRESHOLD = datetime(2025, 9, 1)
 
@@ -223,3 +223,4 @@ if __name__ == "__main__":
 
     save_links_to_csv(all_results)
     print(f"\n✅ Done. {len(all_results)} total filtered posts saved to 'linkedin_it_leads_filtered.csv'")
+
